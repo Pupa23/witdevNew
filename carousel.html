@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="owl.carousel.css">
+    <link rel="stylesheet" href="owl.theme.default.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <h2>nuestro clientes</h2>
+    <div class="client-carousel section-padding owl-carousel">
+        <div class="img-area">
+            <img src="images/clients/Reina Mora oscuro logo.svg" alt="reinamora">
+        </div>
+        <div class="img-area">
+            <img src="images/clients/global solutions logo.svg" alt="glboalsolution">
+        </div>
+        <div class="img-area">
+            <img src="images/clients/leutthe-logo1-1.png" alt="LeUtthe">
+        </div>
+        <div class="img-area">
+            <img src="images/clients/logo manisur.svg" alt="manisur">
+        </div>
+        <div class="img-area">
+            <img src="images/clients/logo oscuro.svg" alt="pazmolina">
+        </div>
+    </div>
+</div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script>
+        $('.client-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+    </script>
+</body>
+</html>
