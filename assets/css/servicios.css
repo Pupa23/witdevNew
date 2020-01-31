@@ -3,13 +3,13 @@
 }
 .contenedor > .major{
 	margin-top: 30px;
-   text-align: center;
+   	text-align: center;
 }
 .card-container{
     text-align: start;
     margin: 20px;
 	width: 330px;
-	height: 420px;
+	height: 450px;
 	background: #FFF;
 	border-radius: 6px;
 	position: relative;
@@ -65,3 +65,4 @@
 	color: gray;
 	margin-bottom: 30px;
 }
+
