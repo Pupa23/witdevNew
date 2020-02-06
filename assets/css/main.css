@@ -4049,13 +4049,13 @@ body.is-mobile.landing #footer {
 	color: #0fcea8 !important;
 }
 
-.descargar{
+.botondescargar{
 	border-bottom: none;
 	font-size: 30px;
 	color: #0fcea8 !important;
 }
 
-.descargar:hover {
+.botondescargar:hover {
 	border-bottom: 3px solid #0fcea8;
 }
 

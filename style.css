@@ -1,5 +1,13 @@
 .img-area {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
     padding: 0 10px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .carousel-container-partners{
