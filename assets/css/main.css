@@ -4048,10 +4048,8 @@ body.is-mobile.landing #footer {
 }
 
 .botondescargar{
-	font-size: 160%;
-	border: 1px solid;
-	border-radius: 20px;
-	padding: 10px;
+	font-size: 110%;
+	text-transform: uppercase;
 	color: white !important;
 }
 
@@ -4576,7 +4574,7 @@ body.is-mobile.landing #footer {
 .card {
 	height: 200px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	padding: 16px;
+	padding: 50px;
 	background-color: white;
 	align-items: center;
 	justify-content: center;
