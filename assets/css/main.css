@@ -3582,6 +3582,7 @@ body.is-menu-visible #menu {
 	overflow: hidden;
 	position: relative;
 	text-align: center;
+	transition: .5ms;
 }
 
 #banner h2 {
@@ -4047,16 +4048,17 @@ body.is-mobile.landing #footer {
 
 .titulo {
 	color: #0fcea8 !important;
+
 }
 
 .botondescargar{
 	border-bottom: none;
-	font-size: 30px;
+	font-size: 160%;
 	color: #0fcea8 !important;
 }
 
 .botondescargar:hover {
-	border-bottom: 3px solid #0fcea8;
+	border-bottom: 1px solid #0fcea8;
 }
 
 
@@ -4078,6 +4080,12 @@ body.is-mobile.landing #footer {
 @media only screen and (max-width: 600px) {
 	.stats__count {
 		font-size: 8.4rem;
+	}
+	.titulo {
+		text-align: start;
+	}
+	.botondescargar {
+		padding-bottom: 5%;
 	}
 }
 @media only screen and (max-width: 400px) {
